@@ -83,14 +83,14 @@ main () {
 
     # * ---------------------------------------------------------------- delay
 
-    echo -n 'Will start at... '
-    echo -n '3 '
-    sleep 1s
-    echo -n '2 '
-    sleep 1s
-    echo -n '1 '
-    sleep 1s
-    echo ''
+    # echo -n 'Will start at... '
+    # echo -n '3 '
+    # sleep 1s
+    # echo -n '2 '
+    # sleep 1s
+    # echo -n '1 '
+    # sleep 1s
+    # echo ''
 
     # * ---------------------------------------------------------------- apply
 
