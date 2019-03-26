@@ -112,7 +112,8 @@ main () {
     echo "替换为国内源..."
     filename="source_${src_choice}_ubuntu_${ver_choice}.list"
     sudo cp $filename /etc/apt/sources.list
-
+    sudo apt-get update -y
+    
     # 这一步是否应该作为可选？
     # echo "更新系统"
     # sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
